@@ -1,0 +1,65 @@
+body {
+    background-color: #fdfede;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #8000ff;
+    font-size: 5vw;
+    border-radius: 30px;
+    background: gainsboro ;
+    border-style: double;
+}
+
+div {
+    display: flex;
+    align-items: start;
+}
+
+p {
+    width: 20%;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px dotted blueviolet;
+    margin: 1vw;
+    border-radius: 20px;
+}
+
+.p2 {
+    flex-grow: 1.5;
+    background-color: #dfc4fc;
+}
+
+.p1 {
+    background-color: #f1e3ff;
+}
+
+.p3 {
+    background-color: #cea1ff;
+}
+
+p:hover {
+    background-color: white;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    width: 400px;
+    height: 50px;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: green;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.button1:hover {
+    background-color: red;
+}
