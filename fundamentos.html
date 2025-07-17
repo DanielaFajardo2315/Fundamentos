@@ -11,7 +11,7 @@
     <header>
       <!-- Menú de navegación -->
       <nav>
-        <ol>
+        <ol class="lista">
           <li>Qué es HTML</li>
           <li>Semántica</li>
           <li>Etiquetas básicas</li>
@@ -19,10 +19,10 @@
 
         <img
           src="https://cdn-icons-png.flaticon.com/512/3500/3500340.png"
-          alt="logo de pinguino"
+          alt="logo de pinguino" class="logo"
         />
 
-        <ul>
+        <ul class="lista">
           <li>Formularios</li>
           <li>Tablas</li>
           <li>Enlaces</li>
@@ -31,6 +31,7 @@
     </header>
     <!-- main -->
     <main>
+      <h1>Fundamentos de desarrollo web: HTML y CSS</h1>
       <section class="contenedor" id="que_es_html">
         <h2>¿Que es el HTML?</h2>
         <p>
@@ -51,55 +52,69 @@
         <table>
           <thead>
             <tr>
-                <th>Etiqueta</th>
-                <th>Descripción</th>
+              <th>Etiqueta</th>
+              <th>Descripción</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-                <td>h1, h2, h3, h4, h5, h6</td>
-                <td>Títulos y subtítulos en HTML</td>
+              <td>h1, h2, h3, h4, h5, h6</td>
+              <td>Títulos y subtítulos en HTML</td>
             </tr>
             <tr>
-                <td>p</td>
-                <td>Párrafos</td>
+              <td>p</td>
+              <td>Párrafos</td>
             </tr>
             <tr>
-                <td>img</td>
-                <td>Para mostrar las imágenes (src, alt)</td>
+              <td>img</td>
+              <td>Para mostrar las imágenes (src, alt)</td>
             </tr>
             <tr>
-                <td>ul, ol</td>
-                <td>Etiquetas para definir listas desordenadas y ordenas</td>
+              <td>ul, ol</td>
+              <td>Etiquetas para definir listas desordenadas y ordenas</td>
             </tr>
             <tr>
-                <td>div</td>
-                <td>Divisores de contenidos- dar estilos</td>
+              <td>div</td>
+              <td>Divisores de contenidos- dar estilos</td>
             </tr>
             <tr>
-                <td>a</td>
-                <td>Redireccionar a un link fuera o dentro de nuestra página</td>
+              <td>a</td>
+              <td>Redireccionar a un link fuera o dentro de nuestra página</td>
             </tr>
           </tbody>
         </table>
       </section>
       <section class="contenedor" id="formularios">
         <h2>Formularios en HTML</h2>
-        <p>Son una herramienta fundamental para recopilar datos de un usuario, a través de campos como:</p>
+        <p>
+          Son una herramienta fundamental para recopilar datos de un usuario, a
+          través de campos como:
+        </p>
         <ul>
-            <li>Textos</li>
-            <li>Casillas de texto - áreas de texto</li>
-            <li>Listas desplegables</li>
+          <li>Textos</li>
+          <li>Casillas de texto - áreas de texto</li>
+          <li>Listas desplegables</li>
         </ul>
         <div>
-            <h3>Ejemplo: Formulario de inicio de sesión</h3>
-            <form action="#">
-                <label for="name">Nombre de usuario</label>
-                <input type="text" name="name" id="name" placeholder="Ingrese su nombre de usuario" required><br>
-                <label for="contrasena">Contraseña</label>
-                <input type="password" id="contrasena" placeholder="Ingrese su contraseña" required><br>
-                <input type="button" value="Iniciar sesión">
-            </form>
+          <h3>Ejemplo: Formulario de inicio de sesión</h3>
+          <form action="#">
+            <label for="name">Nombre de usuario</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Ingrese su nombre de usuario"
+              required
+            /><br />
+            <label for="contrasena">Contraseña</label>
+            <input
+              type="password"
+              id="contrasena"
+              placeholder="Ingrese su contraseña"
+              required
+            /><br />
+            <input type="button" value="Iniciar sesión" />
+          </form>
         </div>
       </section>
       <section class="contenedor" id="tablas"></section>
