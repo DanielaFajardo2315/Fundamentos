@@ -22,16 +22,20 @@ body {
 
 /* ------- HEADER -------- */
 header {
-    width: 100vw;
+    width: 96.5vw;
     height: 10vh;
     background-color: var(--color-enfasis);
+    margin: 15px;
+    border-radius: 20px;
 }
+
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
+
 .lista {
     list-style: none;
     display: flex;
@@ -40,14 +44,52 @@ nav {
     gap: 20px;
     padding: 0;
 }
+
 .logo {
     width: 60px;
     height: 60px;
+    margin: 10px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}
 
 /* ------- MAIN --------- */
 
+main {
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    background-color: var(--color-enfasis2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.semantica {
+    width: 50%;
+    border-radius: 30px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    text-align: center;
+}
 
 
 /* ------- FOOTER ------- */
